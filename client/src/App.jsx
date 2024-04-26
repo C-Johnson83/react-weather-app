@@ -17,7 +17,7 @@ const App = () => {
   };
   const CurrentComponent = componentsByPage[currentPage];
   return (
-    <>
+    <div className="container">
       <Header handleNavigationClick={handleNavigationClick} />
    
       <main>
@@ -26,7 +26,7 @@ const App = () => {
       </main>
     
       <Footer />
-      </>
+      </div>
 );
   
 };
