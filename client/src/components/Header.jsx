@@ -1,6 +1,6 @@
 function Header(){
     return(
-<>HEADER COMPONENT</>
+<><header>React Weather App</header></>
     )
 }
 export default Header;
