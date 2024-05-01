@@ -1,14 +1,18 @@
 body{
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
-header{
-  background-color: rgb(0, 0, 0);
-  color: azure;
-}
+
 main{
-  height: 70vh;
+  height: 100%;
+  color: #fff;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
 }
+
 footer h3  {
   font-size: 100%;
   margin: 3%;
@@ -21,3 +25,40 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+/* Pushes footer to bottom of page */
+
+.flex-wrapper {
+  padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Pushes footer to bottom of page */
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Acme';
+}
+
+.navbar-dark .nav-link {
+  font-size: 17px;
+  font-weight: lighter
+}
+
+.mainContainer .card {
+  width: 100%;
+  background-color: #3b3b3b9f;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer .card img {
+  height: 65px;
+}
+
