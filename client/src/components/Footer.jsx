@@ -1,5 +1,6 @@
 function Footer() {
   return (
+    <div className="flex-wrapper">
     <footer>
       FOOTER COMPONENT
       <ul className="contactLinks">
@@ -17,6 +18,7 @@ function Footer() {
         </li>
       </ul>
     </footer>
+    </div>
   );
 }
 
