@@ -30,9 +30,6 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <a className="nav-link active text-light" aria-current="page" href="#">
-                  "/User"
-                </a>
           </div>
         </div>
       </nav>
