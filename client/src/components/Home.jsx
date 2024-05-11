@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Sidebar from "./Sidebar";
 
 export default function Home() {
   const API = "cebdbe1753a5af12101fc266dce79204";
@@ -30,11 +31,12 @@ export default function Home() {
 
   return (
     <>
-      <div className="mainContainer d-flex justify-content-center">
+      <div className="mainContainer d-flex justify-content-center ms-auto">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 ">
             <form onSubmit={handleSubmit}>
               <input
+              className="search"
                 id="SearchCity"
                 type="text"
                 placeholder="Enter City"
@@ -42,6 +44,7 @@ export default function Home() {
                 onChange={(e) => setCityName(e.target.value)}
               />
               <button type="submit">Get Weather</button>
+              
             </form>
           </div>
 

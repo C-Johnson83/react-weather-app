@@ -3,7 +3,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const db = require("./config/connection");
 const path = require("path");
-// const { authMiddleware } = require("./utils/auth");
+const { authMiddleware } = require("./utils/auth");
 require("dotenv").config();
 
 app.use(express.json());
